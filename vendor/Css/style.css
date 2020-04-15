@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+}
+.arrow{
+    margin-left: 5px;
+}
+
+/* Navbar */
+
+.navbar-light .navbar-brand {
+    color: #6c6c6c; 
+    font-size: 35px;
+    font-weight: 400;
+
+}
+
+.nav-link{
+    color: #6c6c6c;
+    font-size: 20px;
+}
+.nav-item{
+    margin-right: 40px;
+    
+}
+.navstyle {
+    text-align: right;
+}
+
+/* Home Section */
+
+.home {
+    background: url(../images/1.jpg) no-repeat ;
+    background-size: cover;
+    height: 120vh;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.mb{
+    margin-bottom: 100px;
+}
+.home-col{
+    margin: 15%;
+    text-align: center;
+}
+.home-p{
+    font-size: 50px;
+    color: #646262;
+    margin-bottom: 20px;
+}
+.home-span{
+    font-weight: 500;
+    color: #646262;
+}
+.home-btn{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    background-color: #ec5483;
+    border-radius: 40px;
+    padding: 10px 100px;
+}
+
+/* paragraphs */
+
+
+.ph{
+    margin: 50px 0;
+    padding: 45px;
+    text-align: center;
+
+}
+.ph-p{
+    margin: 50px 5px 40px 5px;
+    text-align: center;
+}
+.ph-a{
+    margin: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #646262 ;
+}
+a:hover{
+    text-decoration: none;
+    color: #646262 ;
+
+}
+
+/* Team */
+
+.pr{
+    text-align: center;
+    padding: 10px 125px;
+    margin: 50px 0px;
+}
+.pr-div{
+    border: 1px solid rgb(233, 219, 219);
+    padding: 30px 15px;
+    word-wrap: break-word;
+}
+.pr-div p {
+    word-wrap: break-word;
+}
+.img-face{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+/* video */
+
+.video{
+    margin: 150px 0;
+}
+.img-video{
+    height: 100vh;
+    width: 100%;
+}
+
+/* socis */
+.socis{
+    padding: 75px;
+}
+.socis-img{
+    margin: 50px 0;
+}
+.socis-h3{
+    margin-bottom: 25px;
+}
+
+/* mountain */
+
+.mountain{
+    background: url(../images/mm.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 140vh;
+    padding: 130px 10px 0px 10px;
+}
+.mount-div{
+    background-color: rgb(227, 226, 231, 0.75);
+    height: 90vh;
+    padding: 60px;
+}
+.mount-div a{
+    color: #646262 ;
+}
+.mount-2{
+    margin-top: 25px;
+}
+.mount-a{
+    padding: 40px 20px 20px 20px;
+}
+.mount-c{
+    padding: 40px;
+    text-align: left;
+}
+
+
+/* rows */
+
+.rows-section{
+    margin-top: -22px;
+}
+.rows-2{
+    margin-top: 40px;
+}
+.rows-div{
+    padding: 5px 5px 5px 90px;
+}
+.rows-div h3{
+    text-transform: uppercase;
+    margin-bottom: 53px;
+}
+.rows-div p{
+    font-size: 26px;
+}
+.rows-pic{
+    padding: 5px 10px 5px 60px;
+
+}
+
+
+/* signup */
+
+.o{
+    margin: 15%;
+    text-align: center;
+}
+.o-btn{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    background-color: #ec5483;
+    padding: 10px 70px;
+}
+.o-h2{
+    margin-bottom: 100px;
+}
+.o-h2 h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #777272;
+    margin-bottom: 20px;
+}
+.o-h2 span{
+    font-weight: 500;
+    color: #5e5858;
+}
+
+/* footer */
+footer{
+    background-color: #38404b;
+    padding: 50px;
+}
+.h{
+    color: white;
+    text-align: center;
+    margin: 50px auto 80px auto;
+}
+.ul-footer{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+}
+.ul-footer li {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    margin: 25px;
+
+}
+.h-footer{
+    text-align: center;
+    
+}
+.footer{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+@media (max-width:767px){
+    /* home */
+    .home-btn{
+        font-size: 15px;
+        font-weight: 200;
+        color: white;
+        background-color: #ec5483;
+        border-radius: 40px;
+        padding: 10px 20px;
+    }
+    /* pargraph */
+    .fa-5x{
+        font-size: 20px;
+    }
+    .ph{
+        margin: 2px;
+        padding: 20px;
+    }
+    .ph-p{
+        font-size: 15px;
+        margin: 17px 5px 17px 5px;
+    }
+    .ph-a{
+        font-size: 15px;
+    }
+    /* team */
+    
+    .pr{
+        text-align: center;
+        padding: 10px;
+        margin: 50px 0px;
+    }
+    
+    /* socis */
+    .socis{
+        padding: 8px;
+    }
+    .socis-h3{
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+        /* mountain */
+
+    .mountain{
+        height: 140vh;
+        padding: 130px 10px 0px 10px;
+    }
+    .mount-div{
+        background-color: rgb(227, 226, 231, 0.75);
+        height: 90vh;
+        padding: 20px;
+    }
+    .mount-div a{
+        color: #646262 ;
+    }
+    .mount-2{
+        margin-top: 25px;
+    }
+    .mount-a{
+        padding: 0px;
+    }
+    .mount-c{
+        padding: 0px;
+        text-align: center;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .mount-c p{
+        font-size: 14px;
+    }
+    .fa-4x{
+        font-size: 20px;
+    }
+    
+    /* rows */
+
+    
+    .rows-2{
+        margin-top: 40px;
+    }
+    .rows-div{
+        padding: 5px 5px 5px 15px;
+    }
+    .rows-div h3{
+        text-transform: uppercase;
+        margin-bottom: 22px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .rows-div p{
+        font-size: 15px;
+    }
+    .rows-pic{
+        padding: 20px 1px 1px 1px;
+
+    }
+
+
+    /* signup */
+
+    .o{
+        margin: 15%;
+        text-align: center;
+    }
+    .o-btn{
+        font-size: 15px;
+        font-weight: 300;
+        color: white;
+        background-color: #ec5483;
+        padding: 10px;
+    }
+    .o-h2{
+        margin-bottom: 100px;
+    }
+    .o-h2 h2 {
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #777272;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .o-h2 span{
+        font-weight: 500;
+        color: #5e5858;
+    }
+
+    /* footer */
+   
+    .ul-footer{
+        list-style: none;
+        color: white;
+        display: inline-block;
+        flex-direction: row;
+        text-align: center;
+        padding: 0px;
+    }
+    .ul-footer li {
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        margin: 15px;
+
+    }
+    .h-footer{
+        text-align: center;
+        
+    }
+    .footer{
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+   
+
+@media (min-width:768px) and (max-width:991px) {
+    .mount-a{
+        padding: 10px;
+    }
+    .mount-c{
+        padding: 10px;
+        text-align: center;
+    }
+    .fa-4x{
+        font-size: 20px;
+    }
+}
